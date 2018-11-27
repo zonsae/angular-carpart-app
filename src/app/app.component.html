@@ -21,6 +21,8 @@
 <router-outlet></router-outlet>
 -->
 <h1>{{title | uppercase}}</h1>
+<app-carparts></app-carparts>
+<!-- carparts component 로 분리
 <p>There are {{totalCarParts()}} total parts in stock.</p>
 <ul>
   <li *ngFor="let carPart of carParts">
@@ -31,3 +33,4 @@
     <p *ngIf="carPart.inStock === 0">Out of Stock</p>
   </li>
 </ul>
+-->

@@ -16,6 +16,7 @@ export class AppComponent {
 export class AppComponent {
   title = 'Ultra Racing';
 
+  /* carparts component 로 분리
   carPart = {
     'id': 1,
     'name': 'Supper Tires',
@@ -50,6 +51,6 @@ export class AppComponent {
   totalCarParts() {
     return this.carParts.reduce((previousValue, currentValue) => previousValue + currentValue.inStock, 0);
   }
-
+  */
 
 }
