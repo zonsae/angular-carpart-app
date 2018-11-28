@@ -16,6 +16,10 @@ export class AppComponent {
 export class AppComponent {
   title = 'Ultra Racing';
 
+  constructor(){
+    console.log('AppComponent constructor called..');
+  }
+
   /* carparts component 로 분리
   carPart = {
     'id': 1,
