@@ -14,7 +14,7 @@ export class AppComponent {
 }
 */
 export class AppComponent {
-  title = 'Ultra Racing';
+  // title = 'Ultra Racing';
 
   constructor(){
     console.log('AppComponent constructor called..');

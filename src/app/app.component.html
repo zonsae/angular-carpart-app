@@ -20,8 +20,12 @@
 
 <router-outlet></router-outlet>
 -->
+
+<!--
 <h1>{{title | uppercase}}</h1>
 <app-carparts></app-carparts>
+-->
+
 <!-- carparts component 로 분리
 <p>There are {{totalCarParts()}} total parts in stock.</p>
 <ul>
@@ -34,3 +38,21 @@
   </li>
 </ul>
 -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="collapse navbar-collapse">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" [routerLink]="['']">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" [routerLink]="['/carpart']">CarPart</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" [routerLink]="['/carraces']">CarRace</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<main role="main">
+  <router-outlet></router-outlet>
+</main>
