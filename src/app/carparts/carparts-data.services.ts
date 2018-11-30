@@ -5,9 +5,9 @@ import {Observable} from 'rxjs';
 
 import {CarPart} from './car-part';
 
-@Injectable({
-  providedIn: 'root',
-})
+@Injectable(
+  /*{providedIn: 'root',}*/
+)
 export class CarpartsDataService {
 
   constructor(private httpClient: HttpClient) {
